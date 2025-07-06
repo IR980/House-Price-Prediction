@@ -1,0 +1,1 @@
+streamlit run "D:\Machine Learning\House Pricing Prediction\untitled2.py"
