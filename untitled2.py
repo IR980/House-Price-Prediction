@@ -21,7 +21,7 @@ print(os.getcwd())
 model_path = 'D:/Machine Learning/House Pricing Prediction/savemodel/models.pkl'
 scaler_path = 'D:/Machine Learning/House Pricing Prediction/savemodel/scalers.pkl'
 
-df = pd.read_csv('D:/Machine Learning/House Pricing Prediction/dataset/Housing.csv') # If local, or specify full path as needed
+#df = pd.read_csv('D:/Machine Learning/House Pricing Prediction/dataset/Housing.csv') # If local, or specify full path as needed
 
 # Load model and scaler (new files)
 with open(model_path, 'rb') as model_file:
