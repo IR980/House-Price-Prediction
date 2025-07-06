@@ -75,7 +75,7 @@ if st.button("Predict Price"):
     predicted_price = prediction[0]  # Get float value
 
     # If model was trained in lakhs
-    st.success(f"🏡 Estimated House Price: ₹ {predicted_price * 1_00_00_00:,.2f}")
+    st.success(f"🏡 Estimated House Price: ₹ {predicted_price * 1_00_00_000:,.2f}")
 
 
 
