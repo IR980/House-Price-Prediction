@@ -79,7 +79,7 @@ if st.button("Predict Price"):
 
 
 
-st.write("✅ Input Features (raw):", input_data)
-st.write("📏 Scaled Features:", scaler.transform([input_data]))
+st.write(" Input Features (raw):", input_data)
+st.write(" Scaled Features:", scaler.transform([input_data]))
 scaled_input = scaler.transform([input_data])
 prediction = model.predict(scaled_input)
